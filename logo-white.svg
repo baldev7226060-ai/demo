@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 560" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&amp;family=Cinzel:wght@700;900&amp;family=Plus+Jakarta+Sans:ital,wght@0,700;0,800;1,700;1,800&amp;display=swap');
+      
+      .arch-title {
+        font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+        font-size: 64px;
+        font-weight: 900;
+        fill: #002e99;
+        letter-spacing: 0.5px;
+      }
+      
+      .painting-title {
+        font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+        font-size: 116px;
+        font-weight: 900;
+        fill: #d20014;
+        letter-spacing: 4.5px;
+      }
+      
+      .tagline-title {
+        font-family: 'Plus Jakarta Sans', 'Segoe UI', -apple-system, sans-serif;
+        font-size: 38px;
+        font-weight: 800;
+        font-style: italic;
+        fill: #002e99;
+        letter-spacing: 0.2px;
+      }
+    </style>
+
+    <!-- White background container for dark background placements -->
+    <rect width="100%" height="100%" rx="24" fill="#ffffff" />
+
+    <!-- Smooth curved arc path for ProBrush Premium -->
+    <path id="archPath" d="M 50,245 C 160,55 640,55 750,245" fill="none" />
+  </defs>
+
+  <!-- Arched ProBrush Premium Text -->
+  <text class="arch-title">
+    <textPath href="#archPath" xlink:href="#archPath" startOffset="50%" text-anchor="middle">
+      ProBrush Premium
+    </textPath>
+  </text>
+
+  <!-- Horizontal Center Paintbrush Graphic -->
+  <g id="paintbrush" transform="translate(0, 0)">
+    <!-- White Bristles with Red Border -->
+    <path d="M 260,225 L 360,225 L 360,305 L 260,305 C 255,305 250,300 250,295 L 250,235 C 250,230 255,225 260,225 Z" 
+          fill="#ffffff" stroke="#d20014" stroke-width="8.5" stroke-linejoin="round" />
+    
+    <!-- Bristle Texture Lines (Fine horizontal cuts) -->
+    <line x1="266" y1="238" x2="352" y2="238" stroke="#0f172a" stroke-width="3" stroke-linecap="round" />
+    <line x1="262" y1="251" x2="355" y2="251" stroke="#0f172a" stroke-width="3" stroke-linecap="round" />
+    <line x1="266" y1="265" x2="350" y2="265" stroke="#0f172a" stroke-width="3" stroke-linecap="round" />
+    <line x1="263" y1="278" x2="355" y2="278" stroke="#0f172a" stroke-width="3" stroke-linecap="round" />
+    <line x1="268" y1="291" x2="348" y2="291" stroke="#0f172a" stroke-width="2.8" stroke-linecap="round" />
+
+    <!-- Ferrule Red Collar -->
+    <rect x="357" y="221" width="46" height="88" rx="2" fill="#d20014" />
+    <!-- Ferrule White Cutouts / Reflection Stripes -->
+    <rect x="365" y="228" width="9" height="74" rx="2" fill="#ffffff" />
+    <rect x="382" y="228" width="13" height="74" rx="2" fill="#ffffff" />
+
+    <!-- Red Ergonomic Wooden Handle -->
+    <path d="M 402,225 
+             C 418,225 435,241 462,243 
+             C 488,245 515,236 545,248 
+             C 564,256 567,272 558,284 
+             C 546,298 518,287 485,290 
+             C 445,294 425,305 402,305 Z" 
+          fill="#d20014" />
+
+    <!-- Hanging Hole near handle tail -->
+    <ellipse cx="538" cy="266" rx="9" ry="7" fill="#ffffff" />
+
+    <!-- White Glossy Highlight on top handle contour -->
+    <path d="M 408,235 
+             C 438,242 472,248 512,250 
+             C 528,251 540,257 536,259 
+             C 520,257 480,253 442,247 
+             C 422,243 408,238 408,235 Z" 
+          fill="#ffffff" />
+  </g>
+
+  <!-- Large Bold PAINTING Text -->
+  <text x="400" y="425" text-anchor="middle" class="painting-title">
+    PAINTING
+  </text>
+
+  <!-- Blue Italic Tagline -->
+  <text x="400" y="492" text-anchor="middle" class="tagline-title">
+    Premium Quality that you can Trust!
+  </text>
+</svg>

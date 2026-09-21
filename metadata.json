@@ -1,0 +1,6 @@
+{
+  "name": "ProBrush Premium Painting",
+  "description": "Professional residential and commercial painting and surface-cleaning services. Premium quality that you can trust with interior, exterior, pressure washing, and preparation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
